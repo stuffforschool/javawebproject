@@ -99,4 +99,14 @@
     <servlet-name>UploadController</servlet-name>
     <url-pattern>/UploadController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ContactController</display-name>
+    <servlet-name>ContactController</servlet-name>
+    <servlet-class>controllers.ContactController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactController</servlet-name>
+    <url-pattern>/ContactController</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -23,11 +23,12 @@ public class BookingService {
 		this.userS = new UserService();
 		this.roomS = new RoomService();
 	}
-
+	
 	public boolean createBooking(Booking o) {
 		if(o.getStartDate().after(o.getEndDate())) {
 			return false;
 		}
+		
 		String sql = "insert into booking values (null, ?, ?, ?,?,?)";
 		try {
 
@@ -241,5 +242,14 @@ public class BookingService {
 		}
 		
 		return bookings;
+	}
+	
+	public int[] stats() {
+		int[] stats = new int[12];
+		List<Booking> bookings = findAll();
+		for(Booking b : bookings) {
+			stats[b.getStartDate().getMonth()]++;
+		}
+		return stats;
 	}
 }

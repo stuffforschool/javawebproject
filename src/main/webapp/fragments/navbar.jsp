@@ -9,9 +9,13 @@
 	<div class="navbar">
 		<div style="display: flex; flex-direction: row;">
 			<a style="text-decoration: none; color: white"
-				href="/LearningJavaWeb">Home</a> <a
+				href="/LearningJavaWeb">Home</a> 
+				<a
 				style="text-decoration: none; color: white; margin-left: 24px"
 				href="/LearningJavaWeb/admin.jsp">Admin?</a>
+					<a
+				style="text-decoration: none; color: white; margin-left: 24px"
+				href="/LearningJavaWeb/contact.jsp">Contact</a>
 		</div>
 		<div class="navItemsContainer">
 			<%

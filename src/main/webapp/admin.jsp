@@ -47,6 +47,12 @@
 						style="text-decoration: none; color: white;">Gestion de
 						bookings</a>
 				</div>
+				<div
+					style="background-color: #616161; margin: 16px 0; padding: 8px; border-radius: 8px">
+					<a href="/LearningJavaWeb/stats.jsp"
+						style="text-decoration: none; color: white;">
+						Stats</a>
+				</div>
 			</div>
 			<div style="margin: 0 auto">Se déconnecter</div>
 		</div>

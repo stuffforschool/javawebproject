@@ -258,7 +258,7 @@
 				$("#selectedDtaeVal").html(date);
 			},
 			minDate : 0,
-			maxDate : +15,
+			
 			dateFormat : "yy/mm/dd"
 		});
 
@@ -271,7 +271,7 @@
 				$("#selectedDtaeVal").html(date);
 			},
 			minDate : 0,
-			maxDate : +15,
+			
 			dateFormat : "yy/mm/dd"
 		});
 
