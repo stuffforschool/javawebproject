@@ -16,7 +16,7 @@ import javax.activation.DataHandler;
 //Source : www.exelib.net
 public class MailSender {
 	static final String username = "skyrak1998@gmail.com";
-    static final String password = "dofusgamer98";
+    static final String password = "********";
 
     public static void send(String s,String email) {
         Properties props = new Properties();
